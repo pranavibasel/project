@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Page</title>
+</head>
+<style>
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(142, 143, 201);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.menu ul li a:hover{
+    color: brown;
+    transition: 0.3s;
+}
+
+.signup a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px;
+    border: 2px solid rgb(138, 14, 14);
+}
+
+.signup a:hover{
+    background-color: darkolivegreen;
+    transition: 0.2s;
+}
+
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    width: 40%;
+    text-align: center;
+    color: #110f0f;
+    padding-left: 30px;
+    
+}
+
+.hedaing h1{
+    font-size: 50px;
+}
+
+.heading a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding:14px 50px;
+    background-color: #fff;
+}
+
+.heading a:hover{
+    background-color: cadetblue;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+.wrapper{
+    background-image: url('img6.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(22, 20, 22);
+}
+
+.tours{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    grid-gap:50px;
+    padding-left:15%;
+}
+
+.places{
+    display: inline;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.places h2{
+    color: rgb(5, 4, 4);
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    background-color:rgb(170, 74, 106);
+}
+
+.places h2:hover{
+    color:blue;
+}
+
+.places a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.places a:hover{
+    background-color: pink;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo">
+          <h1>Travel</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Bookings</a></li>
+          </ul>
+        </div>
+        <div class="signup">
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="heading">
+            <h1>Travel With Us</h1>
+            <br>
+            <p>Travel means responsibility, care, opportunity, and learning.
+             Responsibility for the environment—a meaningful traveler does not engage in any activity to pollute it.</p>
+            <br>
+            <br>
+            <br>
+            <a href="#">Explore More!</a>
+        </div>
+    </div> 
+
+    <Section>
+    <div class="wrapper">
+        <h1>Popular Places</h1>
+        <br>
+        <br>
+        <br>
+        <div class="tours">
+            <div class="places">
+               <h2>Paris</h2>
+               <img src="img2.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+               <br>
+               <br>
+               <br>
+               <a href="#">Book Now 30% OFF</a>
+            </div>
+            <div class="places">
+                <h2>Maldives</h2>
+                <img src="img3.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+                <br>
+                <br>
+                <br>
+                <a href="#">Book Now 25% OFF</a>
+             </div>
+             <div class="places">
+                <h2>New york</h2>
+                <img src="img4.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+                <br>
+                <br>
+                <br>
+                <a href="#">Book Now 20% OFF</a>
+             </div>
+        </div>
+    </div>
+    </section>   
+   
+</body>
+</html>
